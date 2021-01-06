@@ -32,9 +32,7 @@ describe('Arrays', function() {
     })
   })
 
-  function destructivelyPrependKitten(name) {
 
-  }
 
   describe('destructivelyRemoveLastKitten()', function() {
     it('removes the last kitten from the kittens array', function() {
