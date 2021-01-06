@@ -10,5 +10,5 @@ function destructivelyAppendKitten(name) {
 console.log(destructivelyAppendKitten(name));
 
 function appendKitten(name) {
-  
+
 }
