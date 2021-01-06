@@ -29,6 +29,6 @@ function removeLastKitten() {
   return newArray
 }
 
-function destructivelyRemoveFirstKitten() { 
+function destructivelyRemoveFirstKitten() {
   kittens.unshift()
 }
