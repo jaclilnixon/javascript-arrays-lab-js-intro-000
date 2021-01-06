@@ -43,11 +43,6 @@ describe('Arrays', function() {
     })
   })
 
-  function destructivelyRemoveLastKitten() {
-    kittens = ['Milo', 'Otis', 'Garfield'];
-    kittens.pop();
-    return kittens;
-  }
 
   describe('destructivelyRemoveFirstKitten()', function() {
     it('removes the First kitten from the kittens array', function() {
