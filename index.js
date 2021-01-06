@@ -12,9 +12,7 @@ function appendKitten(name) {
 }
 
 function destructivelyPrependKitten(name) {
-  var newArray = [ 'Milo', 'Otis', 'Garfield' ]
-  newArray.unshift(name)
-  return newArray
+  kittens.unshift(name)
 }
 
 function prependKitten(name) {
