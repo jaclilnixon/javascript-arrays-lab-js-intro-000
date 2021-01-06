@@ -9,5 +9,6 @@ function destructivelyAppendKitten(name) {
 }
 
 function appendKitten(name) {
-
+  var newArray = kittens.concat(name);
+  return newArray
 }
