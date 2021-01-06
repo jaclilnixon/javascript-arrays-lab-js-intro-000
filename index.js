@@ -3,9 +3,7 @@
 
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-   var newArray = [ 'Milo', 'Otis', 'Garfield' ]
-   newArray.push(name)
-   return newArray
+   kittens.push(name)
 }
 
 function appendKitten(name) {
@@ -16,5 +14,10 @@ function appendKitten(name) {
 function destructivelyPrependKitten(name) {
   var newArray = [ 'Milo', 'Otis', 'Garfield' ]
   newArray.unshift(name)
+  return newArray
+}
+
+function prependKitten(name) {
+  var newArray = kittens.concat(name, kittens);
   return newArray
 }
