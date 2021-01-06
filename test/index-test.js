@@ -5,7 +5,7 @@ describe('Arrays', function() {
     })
   })
 
-  var kittens = ["Milo", "Otis", "Garfield"]
+  var kittens = ['Milo', 'Otis', 'Garfield'];
 
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
@@ -15,7 +15,10 @@ describe('Arrays', function() {
     })
   })
 
-
+function destructivelyAppendKitten(name) {
+  kittens = ['Milo', 'Otis', 'Garfield'];
+  
+}
 
 
   describe('destructivelyPrependKitten(name)', function() {
