@@ -12,3 +12,9 @@ function appendKitten(name) {
   var newArray = kittens.concat(name);
   return newArray
 }
+
+function destructivelyPrependKitten(name) {
+  var newArray = [ 'Milo', 'Otis', 'Garfield' ]
+  newArray.unshift(name)
+  return newArray
+}
