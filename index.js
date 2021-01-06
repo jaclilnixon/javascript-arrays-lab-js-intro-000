@@ -7,3 +7,8 @@ function destructivelyAppendKitten(name) {
    newArray.push(name)
    return newArray
 }
+console.log(destructivelyAppendKitten(name));
+
+function appendKitten(name) {
+  
+}
